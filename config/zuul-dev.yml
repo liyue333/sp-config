@@ -6,7 +6,12 @@ spring:
       override-none: true
 server:
   port: 3001
-  
+  rabbitmq:
+    host: 192.168.64.140
+    port: 5672
+    username: admin
+    password: admin
+      
 eureka:
   client:
     service-url:
